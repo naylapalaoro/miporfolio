@@ -62,6 +62,9 @@ body{
     color: var(--text);
 }
 
+a{
+    color: var(--bg-color);
+}
 /*ABOUT*/
 .conteiner-box-about{
     height: 500px;
