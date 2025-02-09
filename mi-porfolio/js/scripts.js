@@ -7,10 +7,10 @@ const buton = document.getElementById("button-my-proyects");
 toggleTheme.addEventListener("click", () => {
   document.body.classList.toggle("ligth");
   if (toggleThemeIcon.src.includes("sun.svg")) {
-    toggleThemeIcon.src = "assets/icons/moon.svg";
+    toggleThemeIcon.src = "../assets/icons/moon.svg";
     toggleThemeText.textContent = "Modo oscuro";
   } else {
-    toggleThemeIcon.src = "assets/icons/sun.svg";
+    toggleThemeIcon.src = "../assets/icons/sun.svg";
     toggleThemeText.textContent = "Modo claro";
   }
 });
