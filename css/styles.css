@@ -1,29 +1,33 @@
 :root {
-    --color:  rgba(255, 255, 255, 0.925);
-    --text: rgb(14, 13, 13);
-    --text-secondary: rgb(24, 23, 23);
-    --accent: rgb(253, 142, 14);
-    --highlights: rgb(214, 81, 163);
-    --shadows: rgb(182, 14, 98);
-    --bg-card-color: rgb(73, 73, 73);
+    --color: #f8f8f8; 
+    --text: #333; 
+    --accent: #DAA520; 
+    --bg-card-color: #ffffff; 
+    --shadows: rgba(0, 0, 0, 0.1); 
+    --highlights: #795806;
 }
+
 body.ligth{
-    --color:  rgba(18, 18, 18, 1);
-    --text: rgba(255, 255, 255, 0.925);
-    --text-secondary: rgba(176, 176, 176, 0.644);
-    --accent: rgb(61, 146, 138);
-    --highlights: rgb(214, 81, 163);
-    --shadows: rgb(182, 14, 98);
-    --bg-card-color: rgb(49, 49, 49);
+        --color: #121212; 
+        --text: #e0e0e0; 
+        --accent: #5da8d4; 
+        --bg-card-color: #1f1f1f; 
+        --shadows: rgba(59, 50, 85, 0.7); 
+        --highlights: #114969; 
 }
 
 *{
+    margin: 0;
     box-sizing: border-box;
 }
 body{
     margin: 0;
     color: var(--text);
     background-color: var(--color);
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Lora', serif;
 }
 
 
